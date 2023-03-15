@@ -235,6 +235,19 @@ html {
 }
 
 @media screen and (max-width: 720px) {
+    .navbar__menu.active {
+        background: #000;
+        top: 100%;
+        opacity: 1;
+        transition: all 0.5s ease;
+        z-index: 99;
+        height: 40vh;
+    }
+
+    .navbar__menu.active a {
+        font-size: 1.4rem;
+    }
+    
     .hero__container {
         margin: 8rem 0;
     }
@@ -565,10 +578,6 @@ html {
     
     .footer li {
         font-size: 1.415em;
-    }
-
-    #footer__links ul {
-        width: 50%;
     }
 
     #rights {
