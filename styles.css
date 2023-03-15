@@ -234,6 +234,10 @@ html {
     text-shadow: 3px 2px 5px #000;
 }
 
+.full__width__img {
+    object-fit: cover;
+}
+
 @media screen and (max-width: 1200px) {
     .hero {
         background-image: url(images/hero2blur.jpg);
