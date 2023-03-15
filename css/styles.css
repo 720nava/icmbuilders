@@ -204,7 +204,7 @@ html {
 .hero {
     display: flex;
     justify-content: center;
-    background-image: url(/images/heroblur.jpg);
+    background-image: url(images/heroblur.jpg);
     background-size: 120%;
     background-position: left center;
 }
@@ -236,7 +236,7 @@ html {
 
 @media screen and (max-width: 1200px) {
     .hero {
-        background-image: url(/images/hero2blur.jpg);
+        background-image: url(images/hero2blur.jpg);
         background-size: cover;
     }
 }
@@ -476,15 +476,15 @@ html {
 }
 
 #footer__pin {
-    background-image: url("/images/pin.png");
+    background-image: url("images/pin.png");
 }
 
 #footer__mail {
-    background-image: url("/images/mail.png");
+    background-image: url("images/mail.png");
 }
 
 #footer__phone {
-    background-image: url("/images/phone.png");
+    background-image: url("images/phone.png");
 }
 
 #footer__links {
