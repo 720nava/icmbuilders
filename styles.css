@@ -453,6 +453,10 @@ html {
     .main {
         padding: 3rem 0;
     }
+
+    .main__container {
+        row-gap: 0.8rem;
+    }
     
     .main h1 {
         font-size: 1.6rem;
