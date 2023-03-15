@@ -538,6 +538,11 @@ html {
 	list-style: none;
 }
 
+.footer li a {
+    color: #fff;
+    text-decoration: none;
+}
+
 #footer__info li {
 	padding-left: 1.5rem;
 }
@@ -563,11 +568,6 @@ html {
 #footer__links {
     display: flex;
     flex-direction: row;
-}
-
-#footer__links a {
-    color: #fff;
-    text-decoration: none;
 }
 
 #footer__links a:hover {
